@@ -1,0 +1,121 @@
+{
+    "form_header": "Let's get to know you better",
+    "fields": [
+      {
+        "section": 1,
+        "section_name": "Basic Details",
+        "field_id": "candidate_name",
+        "field_label": "Candidate Name",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Your full name"
+      },
+      {
+        "section": 1,
+        "section_name": "",
+        "field_id": "candidate_email",
+        "field_label": "Candidate Email",
+        "field_type": "text",
+        "validations": ["required", "email"],
+        "info": "Your Email"
+      },
+      {
+        "section": 1,
+        "section_name": "",
+        "field_id": "candidate_phone",
+        "field_label": "Candidate Phone",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Your mobile number"
+      },
+      {
+        "section": 1,
+        "section_name": "",
+        "field_id": "candidate_location",
+        "field_label": "Current location",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Your current location"
+      },
+      {
+        "section": 1,
+        "section_name": "",
+        "field_id": "marital_status",
+        "field_label": "Marital Status",
+        "field_type": "radio",
+        "field_options": [{"value": "Married", "Label": "Married"}, {"value": "Single", "Label": "Single"}],
+        "validations": ["required"],
+        "info": "Are you married"
+      },
+      {
+        "section": 2,
+        "section_name": "Education Details",
+        "field_id": "education_level",
+        "field_label": "Education",
+        "field_type": "select",
+        "field_options": [
+          {"value": "High School", "Label": "High School"},
+          {"value": "Senior School", "Label": "Senior School"},
+          {"value": "Graduation", "Label": "Graduation"},
+          {"value": "Postgraduate", "Label": "Postgraduate"}
+        ],
+        "validations": ["required"],
+        "info": "Select your highest education"
+      },
+      {
+        "section": 2,
+        "section_name": "",
+        "field_id": "institute_name",
+        "field_label": "Institute/College/University",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Enter the Institute/College/University name where you completed this mentioned education."
+      },
+      {
+        "section": 2,
+        "section_name": "",
+        "field_id": "completed_year",
+        "field_label": "Completion Year",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Enter the year when you finished the education"
+      },
+      {
+        "section": 3,
+        "section_name": "Employment history",
+        "field_id": "company_name",
+        "field_label": "Company name",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Enter the company name"
+      },
+      {
+        "section": 3,
+        "section_name": "",
+        "field_id": "designation",
+        "field_label": "Designation/Title",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Enter Designation"
+      },
+      {
+        "section": 3,
+        "section_name": "",
+        "field_id": "start_year_month",
+        "field_label": "Start year and month",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Enter start year mm/yyyy"
+      },
+      {
+        "section": 3,
+        "section_name": "",
+        "field_id": "end_year_month",
+        "field_label": "End year and month",
+        "field_type": "text",
+        "validations": ["required"],
+        "info": "Enter end year mm/yyyy"
+      }
+    ]
+  }
+  
